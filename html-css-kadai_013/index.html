@@ -22,15 +22,10 @@
                         <a href="index.html#contact">CONTACT</a>
                     </nav>
                         <!-- スマホ用メニューボタン -->
-                         <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-                            <img src="images/button-menu.png" alt="ナビゲーションを開く">
-                         </button>
+                            <img id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'" src="images/button-menu.png" alt="ナビゲーションを開く">
                          <!-- スマホ用ナビゲーション -->
-                          <div id="nav-sp">
-                            <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
-                                <img src="images/button-close.png" alt="ナビゲーションを閉じる">
-                            </button>
-                            <nav>
+                            <img id="close" onclick="document.getElementById('nav-sp').style.display = 'none'" src="images/button-close.png" alt="ナビゲーションを閉じる">
+                            <nav id="nav-sp">
                                 <ul>
                                     <li>
                                         <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
@@ -40,7 +35,6 @@
                                     <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
                                 </ul>
                             </nav>
-                          </div>
              </header>
              <main>
                 <article>

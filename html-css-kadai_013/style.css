@@ -46,28 +46,27 @@
 
     #main-visual img{width: 100%;}
 
-    スマホ用ナビを非表示
-    #nav-sp,
-    #menu-sp{
+    /* スマホ用ナビを非表示 */
+    #nav-sp,#close,#menu-sp{
       display: none;
     }
 
-      /*====================
+    /*====================
   スマートフォン用のスタイル
  =====================*/
-  @media screen and (min-width: 375px){
+  @media screen and (max-width: 767px){
     /* PC用ナビゲーション非表示 */
+    body{min-width: 375px;
+    margin: 0;}
     #nav-pc{
       display:none;
     }
 
     /* ハンバーガーメニュー */
     #menu-sp{
-      display: block;
-      background-color: transparent;
       float: right;
       padding: 0;
-      border: none;
+      display: block;
     }
 
     /* スマホ用ナビゲーションの表示切替 */
@@ -88,8 +87,6 @@
       position: absolute;
       top: 20px;
       right: 20px;
-      background-color: transparent;
-      border: none;
     }
 
     #nav-sp nav ul{
