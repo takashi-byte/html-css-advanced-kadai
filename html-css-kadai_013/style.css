@@ -47,7 +47,7 @@
     #main-visual img{width: 100%;}
 
     /* スマホ用ナビを非表示 */
-    #nav-sp,#close,#menu-sp{
+    #nav-sp,#menu-sp{
       display: none;
     }
 
